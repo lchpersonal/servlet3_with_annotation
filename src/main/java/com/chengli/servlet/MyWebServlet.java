@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @WebServlet 相当于在web.xml中配置了<servlet></servlet>
- * @WebInitParam用于设置初始化参数
+ * 这里 @WebServlet 相当于在web.xml中配置了<servlet></servlet>
+ * 此处@WebInitParam用于设置初始化参数
  */
 @WebServlet(urlPatterns = {"/hello"},
         initParams = {@WebInitParam(name = "names", value = "chengli")})
