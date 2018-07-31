@@ -11,7 +11,7 @@ import javax.servlet.annotation.WebListener;
 public class MyListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        System.out.println("contentInitialized~~~");
+        System.out.println("Listener contentInitialized~~~");
     }
 
     @Override
